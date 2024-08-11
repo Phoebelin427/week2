@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header{
+    background: black;
+    color: #D1D1D1;
+    padding: 40px;
+}
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    background: black;
+    color: white;
+}
+
+.main-color{
+    color: #00FFA3;
+}
+.text-right{
+    text-align: right;
+    display: block;
+}
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.btn-1{
+    background-color: white;
+    color: black;
+}
+
+.btn-dark{
+    background: black;
+    color: white;
+}
+
+.intro{
+    background-image: url("img/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 160px 0px;
+}
+
+.intro-desc{
+    width: 526px;
+}
+
+.intro h2{
+    font-size: 64px;
+}
+
+.about{
+    padding: 160px 0px;
+}
+
+.about-list{
+    width: 636px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about-list li{
+    width: 48%;
+    box-shadow: 4px 4px 4px 0px #00000014;
+}
+
+.about-desc p{
+    width: 526px;
+}
+
+.contact-me{
+    padding: 96px 0px;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    ;
+}
+
+.contact-me h2{
+    color: white;
+}
+
+.social-link{
+border-radius: 40px;
+transition: 1s;
+}
+
+.social-link:hover{
+box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
+
+.project{
+    padding: 160px 0px;
+}
+
+.project-title{
+    width: 746px;
+    margin-left: auto;
+}
+
+.h1{
+    font-size: 128px;
+}
+
+.h2{
+    font-size: 64px;
+}
+
+.fs-1{
+    font-size: 32px;
+}
+
+.fs-2{
+    font-size: 24px;
+}
+
+.fs-3{
+    font-size: 20px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer p{
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.mr-5{
+    margin-right: 20px;
+}
+
+.mr-6{
+    margin-right: 24px;
+}
+
+.mr-113{
+    margin-right: 113px;
+}
+
+.mt-40{
+    margin-top: 160px;
+}
+
+.mt-7{
+    margin-top: 28px;
+}
+
+.mt-8{
+    margin-top: 32px;
+}
+
+.mt-9{
+    margin-top: 36px;
+}
